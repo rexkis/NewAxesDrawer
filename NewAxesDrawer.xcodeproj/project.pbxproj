@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCC07C8D238D665500AC6073 /* GraphViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC07C8C238D665500AC6073 /* GraphViewExtension.swift */; };
 		CCEC42EC2382E2140052D5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC42EB2382E2140052D5B8 /* AppDelegate.swift */; };
 		CCEC42EE2382E2140052D5B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC42ED2382E2140052D5B8 /* ViewController.swift */; };
 		CCEC42F02382E21A0052D5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEC42EF2382E21A0052D5B8 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCC07C8C238D665500AC6073 /* GraphViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewExtension.swift; sourceTree = "<group>"; };
 		CCEC42E82382E2140052D5B8 /* NewAxesDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewAxesDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEC42EB2382E2140052D5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCEC42ED2382E2140052D5B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				CCEC42F12382E21A0052D5B8 /* Main.storyboard */,
 				CCEC42ED2382E2140052D5B8 /* ViewController.swift */,
 				CCEC43012382FF1B0052D5B8 /* GraphView.swift */,
+				CCC07C8C238D665500AC6073 /* GraphViewExtension.swift */,
 				CCEC42FB2382E2360052D5B8 /* AxesDrawer.swift */,
 				CCEC4303238302550052D5B8 /* GConstants.swift */,
 				CCEC42EB2382E2140052D5B8 /* AppDelegate.swift */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCEC43022382FF1B0052D5B8 /* GraphView.swift in Sources */,
+				CCC07C8D238D665500AC6073 /* GraphViewExtension.swift in Sources */,
 				CCEC4304238302550052D5B8 /* GConstants.swift in Sources */,
 				CCEC42EE2382E2140052D5B8 /* ViewController.swift in Sources */,
 				CCEC42EC2382E2140052D5B8 /* AppDelegate.swift in Sources */,

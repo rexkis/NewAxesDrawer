@@ -710,14 +710,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3e-nK-Xg6">
-                                <rect key="frame" x="267" y="452" width="294" height="24"/>
+                                <rect key="frame" x="235" y="452" width="358" height="24"/>
                                 <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fillProportionally" style="rounded" trackingMode="selectOne" id="k8F-XZ-P5T">
                                     <font key="font" metaFont="system"/>
                                     <segments>
-                                        <segment label="HLin, VLog" width="75"/>
-                                        <segment label="HLog, VLin" width="74" selected="YES" tag="1"/>
-                                        <segment label="All Lin" width="74"/>
-                                        <segment label="All Log"/>
+                                        <segment label="H: Lin, V: Log" width="91"/>
+                                        <segment label="H: Log, V: Lin" width="90" selected="YES" tag="1"/>
+                                        <segment label="Both: Lin" width="89"/>
+                                        <segment label="Both: Log"/>
                                     </segments>
                                 </segmentedCell>
                                 <connections>

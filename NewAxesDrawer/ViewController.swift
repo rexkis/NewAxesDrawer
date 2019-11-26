@@ -13,7 +13,6 @@ class ViewController: NSViewController {
     @IBOutlet weak var seg: NSSegmentedControl!
     @IBAction func segTapped(_ sender: NSSegmentedControl) {
         let selected = sender.indexOfSelectedItem
-        print(selected)
         graphView.lineTip = selected
     }
     
@@ -24,6 +23,9 @@ class ViewController: NSViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Initial Selected Segment
+        seg.selectedSegment = 0
           
     }
 
