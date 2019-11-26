@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LinScaleAxis.getParameters():AxesDrawer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "maxPoint">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogScaleAxis.drawTicks():AxesDrawer.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AxesDrawer.getCoord(_:):AxesDrawer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "axisMinMax">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
